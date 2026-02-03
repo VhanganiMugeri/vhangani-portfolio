@@ -21,7 +21,8 @@ const Footer = () => {
           </div>
 
           <a 
-            href="#" 
+            href="/Vhangani_Mugeri_CV.pdf" 
+            download
             className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
           >
             <Download className="h-4 w-4" />
