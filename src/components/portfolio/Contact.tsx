@@ -121,11 +121,11 @@ const Contact = () => {
                   Contact Email
                 </h3>
                 <a 
-                  href="mailto:vhangani.mugeri@gmail.com" 
+                  href="mailto:vhanganimugeri17@gmail.com" 
                   className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
                 >
                   <Mail className="h-4 w-4" />
-                  vhangani.mugeri@gmail.com
+                  vhanganimugeri17@gmail.com
                 </a>
               </div>
 
@@ -135,7 +135,7 @@ const Contact = () => {
                 </h3>
                 <div className="flex gap-4">
                   <a 
-                    href="https://github.com" 
+                    href="https://github.com/VhanganiMugeri" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="p-3 bg-card border border-border rounded-lg hover:border-primary/50 hover:text-primary transition-all duration-200"
@@ -143,7 +143,7 @@ const Contact = () => {
                     <Github className="h-5 w-5" />
                   </a>
                   <a 
-                    href="https://linkedin.com" 
+                    href="https://www.linkedin.com/in/vhangani-mugeri-590a13312/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="p-3 bg-card border border-border rounded-lg hover:border-primary/50 hover:text-primary transition-all duration-200"
