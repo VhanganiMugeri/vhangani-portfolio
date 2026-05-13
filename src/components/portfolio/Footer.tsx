@@ -1,4 +1,5 @@
 import { Download, MapPin } from "lucide-react";
+import cvFile from "@/assets/Vhangani_Mugeri_CV.pdf";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -21,8 +22,8 @@ const Footer = () => {
           </div>
 
           <a 
-            href="/Vhangani_Mugeri_CV.pdf" 
-            download
+            href={cvFile}
+            download="Vhangani_Mugeri_CV.pdf"
             className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
           >
             <Download className="h-4 w-4" />

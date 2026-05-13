@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Download, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profileImage from "@/assets/profile-headshot.jpg";
+import cvFile from "@/assets/Vhangani_Mugeri_CV.pdf";
 
 const Hero = () => {
   return (
@@ -49,7 +50,7 @@ const Hero = () => {
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
             >
               <Button size="lg" className="bg-primary hover:bg-primary/90" asChild>
-                <a href="/Vhangani_Mugeri_CV.pdf" download>
+                <a href={cvFile} download="Vhangani_Mugeri_CV.pdf">
                   <Download className="mr-2 h-4 w-4" />
                   Download CV
                 </a>
