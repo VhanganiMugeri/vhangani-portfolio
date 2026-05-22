@@ -26,6 +26,14 @@ const projects = [
     github: "https://github.com/VhanganiMugeri/rightswise-ai",
     live: "https://rightswise-ai.lovable.app",
     tags: ["React", "TypeScript", "AI", "Governance"],
+  {
+    title: "SIMJOJO POS",
+    description:
+      "A modern online ordering and delivery platform built for Simjojo Braai Chicken — designed for quick ordering, easy product browsing, and a smooth checkout experience.",
+    image: simjojoImage,
+    github: "https://github.com/VhanganiMugeri/simjojo-quickv-order",
+    live: "https://simjojo-quickv-order.lovable.app",
+    tags: ["React", "TypeScript", "POS", "Tailwind CSS"],
   },
 ];
 
