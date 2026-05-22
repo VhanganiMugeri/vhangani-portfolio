@@ -26,6 +26,7 @@ const projects = [
     github: "https://github.com/VhanganiMugeri/rightswise-ai",
     live: "https://rightswise-ai.lovable.app",
     tags: ["React", "TypeScript", "AI", "Governance"],
+  },
   {
     title: "SIMJOJO POS",
     description:
