@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import sentimentIQImage from "@/assets/project-sentimentiq.png";
+import rightsWiseImage from "@/assets/project-rightswise.png";
 
 const projects = [
   {
@@ -15,6 +16,15 @@ const projects = [
     github: "https://github.com/VhanganiMugeri/sentimentanalysisv",
     live: "https://sentimentanalysisv.lovable.app",
     tags: ["React", "TypeScript", "AI", "Tailwind CSS"],
+  },
+  {
+    title: "RightsWise AI",
+    description:
+      "An AI-powered platform helping organizations protect and manage their intellectual property rights in the AI era — combining legal, compliance, and AI governance tools to track content usage, support licensing, and safeguard digital ownership.",
+    image: rightsWiseImage,
+    github: "https://github.com/VhanganiMugeri/rightswise-ai",
+    live: "https://rightswise-ai.lovable.app",
+    tags: ["React", "TypeScript", "AI", "Governance"],
   },
 ];
 
