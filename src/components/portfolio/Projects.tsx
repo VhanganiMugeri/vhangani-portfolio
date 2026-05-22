@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import sentimentIQImage from "@/assets/project-sentimentiq.png";
 import rightsWiseImage from "@/assets/project-rightswise.png";
+import simjojoImage from "@/assets/project-simjojo.png";
 
 const projects = [
   {
